@@ -31,5 +31,6 @@ public class DocNumbersFileCreation {
         } catch (IOException e) {
             System.out.println("Произошла ошибка");
         }
+        scanner.close();
     }
 }
